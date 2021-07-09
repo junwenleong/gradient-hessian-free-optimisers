@@ -425,61 +425,14 @@ Choosing the number of epochs depends on how large the search space is, too few 
 
 For this report, Group 17 will test our implementations of the three optimization functions listed above on the following 6 test functions.  
 
-Source of test case functions: [Wikipedia: Test functions for optimization](https://en.wikipedia.org/wiki/Test_functions_for_optimization)
+Source of test case functions: [Test functions for optimization](https://en.wikipedia.org/wiki/Test_functions_for_optimization)
 
 ### Sphere function
-$$
-f(\mathbf{x}) = \sum^{n}_{i=1}x_i^2
-\\
-\text{Bounds: } -\infty \leq x, y \leq \infty
-\\
-\text{Minimized at: } f(0, ..., 0) = 0
-$$
-
 ### Eggholder function
-$$
-f(x, y) = -(y + 47) \sin \sqrt{ \left\lvert \frac{x} {2} + (y + 47) \right\rvert } - x \sin \sqrt{ \left\lvert x - (y + 47) \right\rvert }
-\\
-\text{Bounds: } -512 \leq x, y \leq 512
-\\
-\text{Minimized at: } f(512, 404.2319) = -959.6407
-$$
-
 ### Booth function
-$$
-f(x, y) = (x + 2y -7)^2 + (2x + y - 5)^2
-\\
-\text{Bounds: } -10 \leq x, y \leq 10
-\\
-\text{Minimized at: } f(1, 3) = 0
-$$
-
 ### Matyas function
-$$
-f(x, y) = 0.26(x^2 + y^2) - 0.48xy
-\\
-\text{Bounds: } -10 \leq x, y \leq 10
-\\
-\text{Minimized at: } f(0, 0) = 0
-$$
-
 ### Levi function N. 13
-$$
-f(x, y) = \sin^2 3 \pi x + (x - 1)^2 (1 + \sin^2 3 \pi y) + (y - 1)^2 (1 + \sin^2 2 \pi y)
-\\
-\text{Bounds: } -10 \leq x, y \leq 10
-\\
-\text{Minimized at: } f(1, 1) = 0
-$$
-
 ### Cross-in tray function
-$$
-f(x, y) = -0.0001 \left[ \left\lvert \sin{x} \sin{y} \exp \left( \left\lvert 100 - \frac{\sqrt{x^2 + y^2}} {\pi} \right\rvert \right) \right\rvert + 1 \right]^{0.1}
-\\
-\text{Bounds: } -10 \leq x, y \leq 10
-\\
-\text{Minimized at: } f(\pm 1.39491, \pm 1.34941) = -2.06261
-$$
 
 
 ```python
