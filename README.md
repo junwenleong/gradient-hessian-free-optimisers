@@ -1,4 +1,7 @@
 # Derivative-free Optimization Techniques
+## Particle Swarm Optimization
+## Simulated Annealing
+## Nelder-Mead Algorithm
 
 #### Contents of this report:
 * Algorithm implementations and the effects of their parameters
@@ -7,7 +10,7 @@
 * Convergence analysis: Frequency of convergence
 
 
-All code included in this report was written by Group 17 members [Douglas, Jun Wen, Daryl, Wen Pin]  ONLY.  
+All code included in this nanotask report was written by Group 17 members Douglas, Jun Wen, Daryl, Wen Pin  ONLY.  
 
 ## 1. Particle Swarm Optimization
 
