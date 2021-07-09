@@ -1,4 +1,4 @@
-# Derivative-free Optimization Techniques
+# Convergence Analysis of Derivative-free Optimization Techniques
 1. Particle Swarm Optimization
 2. Simulated Annealing
 3. Nelder-Mead Algorithm
