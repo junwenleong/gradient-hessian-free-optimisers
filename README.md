@@ -1,13 +1,3 @@
-<h1><center>DSA 4212: Year 2021</center></h1>
-
-<h2><center> Group Member 1: Leong Jun Wen </center></h2>
-<h2><center> Group Member 2: Douglas Wei Jing Allwood </center></h2>
-<h2><center> Group Member 3: Lee Jun Xian Daryl </center></h2>
-<h2><center> Group Member 4: Ong Wen Pin </center></h2>
-
-
-
-
 # Derivative-free Optimization Techniques
 
 #### Contents of this report:
@@ -17,7 +7,7 @@
 * Convergence analysis: Frequency of convergence
 
 
-All code included in this report was written by Group 17 members ONLY.  
+All code included in this report was written by Group 17 members [Douglas, Jun Wen, Daryl, Wen Pin]  ONLY.  
 
 ## 1. Particle Swarm Optimization
 
