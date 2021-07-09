@@ -721,7 +721,7 @@ Source of images: https://en.wikipedia.org/wiki/Test_functions_for_optimization
 
 In this section we will analyse the frequency at which the 3 optimisation algorithms are able to converge to the global minimum of the 6 test functions listed above.  
 
-For example, we will analyse the proportion of times the PSO algorithm converges to the global minimum of the sphere function, $\begin{pmatrix}0 \\ 0 \end{pmatrix}$.
+For example, we will analyse the proportion of times the PSO algorithm converges to the global minimum of the sphere function.
 
 
 ```python
@@ -742,25 +742,7 @@ for optim_fn in optim_functions:
             result = [optim_fn.__name__, test_fn.__name__, optim_fn(test_fn, bounds)]
             results.append(result)
 ```
-
-    Optim function: pso_optim           	Test function: sphere_fn                
-    Optim function: pso_optim           	Test function: egg_holder_fn            
-    Optim function: pso_optim           	Test function: booth_fn                 
-    Optim function: pso_optim           	Test function: matyas_fn                
-    Optim function: pso_optim           	Test function: levi_fn                  
-    Optim function: pso_optim           	Test function: cross_in_tray_fn         
-    Optim function: simulated_annealing_optim	Test function: sphere_fn                
-    Optim function: simulated_annealing_optim	Test function: egg_holder_fn            
-    Optim function: simulated_annealing_optim	Test function: booth_fn                 
-    Optim function: simulated_annealing_optim	Test function: matyas_fn                
-    Optim function: simulated_annealing_optim	Test function: levi_fn                  
-    Optim function: simulated_annealing_optim	Test function: cross_in_tray_fn         
-    Optim function: nelder_mead_optim   	Test function: sphere_fn                
-    Optim function: nelder_mead_optim   	Test function: egg_holder_fn            
-    Optim function: nelder_mead_optim   	Test function: booth_fn                 
-    Optim function: nelder_mead_optim   	Test function: matyas_fn                
-    Optim function: nelder_mead_optim   	Test function: levi_fn                  
-    Optim function: nelder_mead_optim   	Test function: cross_in_tray_fn         
+     
     
 
 
@@ -808,22 +790,6 @@ convergence.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -892,21 +858,6 @@ convergence_table
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
