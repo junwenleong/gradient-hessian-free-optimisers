@@ -1,7 +1,9 @@
 # Derivative-free Optimization Techniques
-## Particle Swarm Optimization
-## Simulated Annealing
-## Nelder-Mead Algorithm
+1. Particle Swarm Optimization
+2. Simulated Annealing
+3. Nelder-Mead Algorithm
+
+Derivative-free optimization does not use derivative information in the classical sense to find optimal solutions: Sometimes information about the derivative of the objective function is unavailable, unreliable or impractical to obtain. 
 
 #### Contents of this report:
 * Algorithm implementations and the effects of their parameters
